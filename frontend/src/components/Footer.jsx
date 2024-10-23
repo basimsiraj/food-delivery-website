@@ -12,8 +12,10 @@ const Footer = ({ setMenu }) => {
           </Link>
           <p className='max-w-[560px] text-[15px] leading-tight mb-6'>Tomato is an Indian multinational restaurant aggregator and food delivery company. It was founded by Deepinder Goyal and Pankaj Chaddah in 2008.Zomato provides information, menus and user-reviews of restaurants as well as food delivery options from different restaurants.</p>
           <div className='flex items-center'>
-            <img src={images.facebook_icon} alt="" 
+            <a href="https://www.facebook.com/">
+             <img src={images.facebook_icon} alt="" 
               className='w-[30px] mr-4 cursor-pointer' />
+            </a>
             <img src={images.twitter_icon} alt="" 
               className='w-[30px] mr-4 cursor-pointer' />
             <img src={images.linkedin_icon} alt="" 
